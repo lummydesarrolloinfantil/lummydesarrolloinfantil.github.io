@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lummy - Enlaces y Servicios</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f8f1f4; /* pastel rosado */
+            text-align: center;
+            color: #4a4a4a;
+        }
+        header {
+            padding: 20px 0 10px;
+        }
+        .logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid #c7b0d6;
+            object-fit: cover;
+        }
+        .links {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+        .link-button {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #d6f0f2;
+            color: #333;
+            padding: 12px 24px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 16px;
+            width: 80%;
+            max-width: 400px;
+            transition: background-color 0.3s;
+        }
+        .link-button:hover {
+            background-color: #bce6ea;
+        }
+        .services-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 40px auto;
+            gap: 20px;
+            max-width: 800px;
+        }
+        .service {
+            background: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            width: 180px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .service img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .about-box {
+            margin: 40px auto;
+            padding: 20px;
+            max-width: 600px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 250px;
+            border: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Lummy</h1>
+    <img src="logo.png" alt="Logo de Lummy" class="logo">
+</header>
+
+<div class="links">
+    <a href="https://www.facebook.com/lummydesarrolloinfantil" class="link-button" target="_blank">
+        <i class="fab fa-facebook"></i> Facebook
+    </a>
+    <a href="https://www.instagram.com/lummydesarrolloinfantil" class="link-button" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
+    </a>
+    <a href="https://wa.me/123456789" class="link-button" target="_blank">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+    </a>
+    <a href="https://www.tiktok.com/@lummydesarrolloinfantil" class="link-button" target="_blank">
+        <i class="fab fa-tiktok"></i> TikTok
+    </a>
+</div>
+
+<section class="services-gallery">
+    <div class="service">
+        <img src="hidroterapia.jpg" alt="Hidroterapia">
+        <p>Hidroterapia Infantil</p>
+    </div>
+    <div class="service">
+        <img src="estimulacion.jpg" alt="Estimulación temprana">
+        <p>Estimulación Temprana</p>
+    </div>
+    <div class="service">
+        <img src="lenguaje.jpg" alt="Terapia del lenguaje">
+        <p>Terapia del Lenguaje</p>
+    </div>
+    <div class="service">
+        <img src="psicologia.jpg" alt="Psicología Infantil">
+        <p>Psicología Infantil</p>
+    </div>
+</section>
+
+<div class="about-box">
+    <h2>Sobre Lummy</h2>
+    <p>Centro de desarrollo infantil y baby spa enfocado en el bienestar integral de bebés y niños. Ofrecemos atención terapéutica temprana en un entorno amoroso, profesional y multidisciplinario.</p>
+</div>
+
+<iframe src="https://maps.google.com/maps?q=Quito,+Ecuador&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen></iframe>
+</body>
+</html>
